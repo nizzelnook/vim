@@ -1,1 +1,1 @@
-pooooooooooop
+execute pathogen#infect()
