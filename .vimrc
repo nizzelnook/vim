@@ -5,7 +5,8 @@ call pathogen#helptags()
 
 filetype plugin indent on
 syntax on
-colorscheme maui
+set background=dark
+colorscheme kyle
 
 
 " =====================================================
