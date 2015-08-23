@@ -1,3 +1,15 @@
 [submodule "bundle/python-mode"]
 	path = bundle/python-mode
 	url = https://github.com/klen/python-mode.git
+[submodule "bundle/seti.vim"]
+	path = bundle/seti.vim
+	url = https://github.com/trusktr/seti.vim
+[submodule "bundle/znake-vim"]
+	path = bundle/znake-vim
+	url = https://github.com/znake/znake-vim.git
+[submodule "bundle/jellybeans.vim"]
+	path = bundle/jellybeans.vim
+	url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "bundle/vim-monokai"]
+	path = bundle/vim-monokai
+	url = https://github.com/sickill/vim-monokai.git
