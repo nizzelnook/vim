@@ -221,15 +221,15 @@ if &background == "dark"
     hi Identifier ctermfg=37 cterm=none
     hi Function cterm=bold ctermfg=250
     hi Statement cterm=bold ctermfg=166
-    hi Conditional cterm=bold ctermfg=110
-    hi Repeat cterm=bold ctermfg=110
+    hi Conditional cterm=bold ctermfg=166
+    hi Repeat cterm=bold ctermfg=166
     hi Label cterm=bold ctermfg=35
     hi Operator ctermfg=67
     hi Keyword ctermfg=158
-    hi Exception cterm=bold ctermfg=32
-    hi PreProc cterm=bold ctermfg=33
-    hi Include cterm=bold ctermfg=33
-    hi Define cterm=bold ctermfg=33
+    hi Exception cterm=bold ctermfg=166
+    hi PreProc cterm=bold ctermfg=166
+    hi Include cterm=bold ctermfg=166
+    hi Define cterm=bold ctermfg=166
     hi Macro ctermfg=140
     hi PreCondit ctermfg=110
     hi Type ctermfg=67
