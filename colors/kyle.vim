@@ -218,6 +218,7 @@ if &background == "dark"
     hi Number ctermfg=214
     hi Boolean ctermfg=149
     hi Float ctermfg=227
+    "self 
     hi Identifier ctermfg=37 cterm=none
     hi Function cterm=bold ctermfg=250
     hi Statement cterm=bold ctermfg=166
@@ -231,11 +232,12 @@ if &background == "dark"
     hi Include cterm=bold ctermfg=166
     hi Define cterm=bold ctermfg=166
     hi Macro ctermfg=140
-    hi PreCondit ctermfg=110
+    hi PreCondit ctermfg=110 cterm=none
+    "Type classname, dict()
     hi Type ctermfg=67
     hi StorageClass ctermfg=71 cterm=none
     hi Structure ctermfg=67
-    hi Typedef ctermfg=72
+    hi Typedef ctermfg=72 cterm=none
     hi Special ctermfg=194 cterm=none
     hi SpecialChar ctermfg=69 cterm=none
     hi SpecialKey ctermbg=236 ctermfg=194 cterm=bold
@@ -283,7 +285,8 @@ if &background == "dark"
     hi TabLine ctermbg=22 ctermfg=148 cterm=none
     hi TabLineSel ctermbg=148 ctermfg=22 cterm=none
     hi TabLineFill ctermbg=247 ctermfg=236 cterm=none
-    hi PythonOperator ctermfg=110
+    "is, not
+    hi PythonOperator cterm=bold ctermfg=166
     hi Docstring ctermfg=67
     hi pythonDoctest ctermfg=97
     hi javaScript ctermfg=151
